@@ -1,0 +1,11 @@
+{
+  "name": "checkpoint-06",
+  "version": "1.0.0",
+  "description": "Projeto Checkpoint 06 com Tailwind CSS",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}

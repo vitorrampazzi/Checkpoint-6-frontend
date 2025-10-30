@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MatrixShop - Checkpoint 06</title>
+  
+  <link href="../dist/output.css" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body class="font-heebo">
+
+  <header class="container mx-auto p-6">
+    <nav class="flex flex-wrap justify-between items-center">
+      <a href="#" class="text-3xl font-bold">MatrixShop</a>
+      <div class="hidden md:flex gap-8 text-lg">
+        <a href="#colecao" class="hover:text-gray-500">Coleção 2025</a>
+        <a href="#outlet" class="hover:text-gray-500">Outlet</a>
+        <a href="#prime" class="hover:text-gray-500">Prime</a>
+      </div>
+      <div class="flex gap-6 text-xl">
+        <a href="#" class="hover:text-gray-500">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="hidden lg:inline ml-2">Carrinho</span>
+        </a>
+        <a href="#" class="hover:text-gray-500">
+          <i class="fa-solid fa-user"></i>
+          <span class="hidden lg:inline ml-2">Login</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="bg-custom-bg min-h-[60vh] grid grid-cols-1 md:grid-cols-2 items-center">
+    
+    <div class="container mx-auto p-6 md:pl-24">
+      <div class="max-w-md">
+        <h1 class="text-5xl font-bold">Nova coleção 2025</h1>
+        <h2 class="text-3xl text-gray-700 my-4">20% OFF para a nova coleção</h2>
+        <a href="#colecao" class="inline-block bg-gray-900 text-white px-8 py-3 text-lg font-bold rounded hover:bg-gray-700 transition-colors">
+          Conheça a coleção
+        </a>
+      </div>
+    </div>
+
+    <div class="w-full h-full min-h-[60vh] hidden md:block">
+        <img src="./assets/images/produto-hero.jpg" alt="Modelo de moda vestindo a nova coleção" class="w-full h-full object-cover">
+    </div>
+  </section>
+
+  <section id="colecao" class="container mx-auto p-6 my-16">
+    <h3 class="text-3xl font-bold mb-8 text-center">Coleção 2025</h3>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 h-auto">
+      
+      <div class="h-full">
+        <img src="./assets/images/cat-img-1.jpg" alt="Pilha de agasalhos coloridos" class="w-full h-full object-cover rounded-lg">
+      </div>
+      
+      <div class="grid grid-rows-2 gap-6 h-full">
+        <div class="h-full">
+          <img src="./assets/images/cat-img-2.jpg" alt="Tênis de corrida cinza" class="w-full h-full object-cover rounded-lg">
+        </div>
+        <div class="h-full">
+          <img src="./assets/images/cat-img-3.jpg" alt="Relógio de pulso marrom" class="w-full h-full object-cover rounded-lg">
+        </div>
+      </div>
+      
+      <div class="h-full">
+        <img src="./assets/images/cat-img-4.jpg" alt="Headphone preto" class="w-full h-full object-cover rounded-lg">
+      </div>
+    </div>
+  </section>
+
+  <section id="outlet" class="container mx-auto p-6 my-16">
+    <h3 class="text-3xl font-bold mb-8 text-center">Outlet</h3>
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      
+      <div class="flex flex-col items-center">
+        <img src="./assets/images/product-1.jpg" alt="Fones de ouvido sem fio" class="w-full object-cover rounded-lg mb-4">
+        <a href="#" class="border border-gray-900 text-gray-900 px-6 py-2 rounded hover:bg-gray-900 hover:text-white transition-colors">
+          Adicionar ao carrinho
+        </a>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="./assets/images/product-2.jpg" alt="Tênis de basquete vermelho" class="w-full object-cover rounded-lg mb-4">
+        <a href="#" class="border border-gray-900 text-gray-900 px-6 py-2 rounded hover:bg-gray-900 hover:text-white transition-colors">
+          Adicionar ao carrinho
+        </a>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="./assets/images/product-3.jpg" alt="Camiseta azul" class="w-full object-cover rounded-lg mb-4">
+        <a href="#" class="border border-gray-900 text-gray-900 px-6 py-2 rounded hover:bg-gray-900 hover:text-white transition-colors">
+          Adicionar ao carrinho
+        </a>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="./assets/images/product-4.jpg" alt="Relógio de pulso marrom" class="w-full object-cover rounded-lg mb-4">
+        <a href="#" class="border border-gray-900 text-gray-900 px-6 py-2 rounded hover:bg-gray-900 hover:text-white transition-colors">
+          Adicionar ao carrinho
+        </a>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="./assets/images/product-5.jpg" alt="Smartwatch com pulseira rosa" class="w-full object-cover rounded-lg mb-4">
+        <a href="#" class="border border-gray-900 text-gray-900 px-6 py-2 rounded hover:bg-gray-900 hover:text-white transition-colors">
+          Adicionar ao carrinho
+        </a>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="./assets/images/product-6.jpg" alt="Tênis de corrida verde escuro" class="w-full object-cover rounded-lg mb-4">
+        <a href="#" class="border border-gray-900 text-gray-900 px-6 py-2 rounded hover:bg-gray-900 hover:text-white transition-colors">
+          Adicionar ao carrinho
+        </a>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="./assets/images/product-7.jpg" alt="Frasco de perfume" class="w-full object-cover rounded-lg mb-4">
+        <a href="#" class="border border-gray-900 text-gray-900 px-6 py-2 rounded hover:bg-gray-900 hover:text-white transition-colors">
+          Adicionar ao carrinho
+        </a>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="./assets/images/product-8.jpg" alt="Smartwatch preto" class="w-full object-cover rounded-lg mb-4">
+        <a href="#" class="border border-gray-900 text-gray-900 px-6 py-2 rounded hover:bg-gray-900 hover:text-white transition-colors">
+          Adicionar ao carrinho
+        </a>
+      </div>
+      
+    </div>
+  </section>
+
+  <section id="prime" class="bg-custom-bg py-16">
+    <div class="container mx-auto p-6">
+      <h3 class="text-3xl font-bold mb-8 text-center">Prime</h3>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        
+        <div class="grid grid-cols-5 gap-4">
+          <div class="col-span-1 grid grid-cols-2 gap-4 content-start"> 
+            <img src="./assets/images/product-detail-1.jpg" alt="Thumbnail relógio 1" class="rounded-md cursor-pointer opacity-70 hover:opacity-100">
+            <img src="./assets/images/product-detail-2.jpg" alt="Thumbnail relógio 2" class="rounded-md cursor-pointer opacity-70 hover:opacity-100">
+            <img src="./assets/images/product-detail-3.jpg" alt="Thumbnail relógio 3" class="rounded-md cursor-pointer opacity-70 hover:opacity-100">
+            <img src="./assets/images/product-detail-4.jpg" alt="Thumbnail relógio 4" class="rounded-md cursor-pointer opacity-70 hover:opacity-100">
+          </div>
+          <div class="col-span-4">
+            <img src="./assets/images/product-5.jpg" alt="Relógio digital vermelho" class="w-full h-full object-cover rounded-lg">
+          </div>
+        </div>
+
+        <div>
+          <div class="flex gap-1 text-yellow-500 text-lg mb-3">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h2 class="text-4xl font-bold mb-3">Red Digital Watch</h2>
+          <h5 class="text-3xl text-gray-800 mb-4">R$ 9999.99</h5>
+          <p class="text-gray-600 leading-relaxed mb-6">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Ducimus ratione, nostrum cupiditate repellendus
+            distinctio obcaecati!
+          </p>
+          <a href="#" class="inline-block bg-gray-900 text-white px-10 py-3 text-lg font-bold rounded hover:bg-gray-700 transition-colors mb-4 w-full text-center">
+            Adicionar ao carrinho
+          </a>
+          <a href="#" class="flex items-center justify-center text-gray-700 hover:text-red-500 transition-colors no-underline">
+            <i class="fa-regular fa-heart mr-2"></i>
+            Adicionar a sua lista de desejos
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
